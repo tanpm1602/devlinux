@@ -1,0 +1,2 @@
+[2025-09-24 21:51:35] [INFO] [main.c:30] - Switched to new log file.
+[2025-09-24 21:54:43] [INFO] [main.c:30] - Switched to new log file.

@@ -1,0 +1,7 @@
+[2025-09-25 10:44:14] [INFO] [main.c:104] - This is INFO
+[2025-09-25 10:44:14] [NOTICE] [main.c:105] - This is NOTICE
+[2025-09-25 10:44:14] [WARNING] [main.c:106] - This is WARNING
+[2025-09-25 10:44:14] [ERROR] [main.c:107] - This is ERROR
+[2025-09-25 10:44:14] [CRITICAL] [main.c:108] - This is CRITICAL
+[2025-09-25 10:44:14] [ALERT] [main.c:109] - This is ALERT
+[2025-09-25 10:44:14] [EMERGENCY] [main.c:110] - This is EMERGENCY
