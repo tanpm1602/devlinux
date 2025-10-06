@@ -31,7 +31,6 @@ int main()
             SPWS_RunManualMode();
         }
 
-        SPWS_PumpUpdate();
         SPWS_Alert();
 
         printf("\tMode: %s, Soil moisture: %.2f, Temperature: %.2f\n", g_systemState.currentMode == MODE_AUTO ? "Auto" : "Manual",

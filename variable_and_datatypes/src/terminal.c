@@ -36,11 +36,9 @@ void Terminal_Init(void) {
     t.c_cc[VTIME] = 0;  // không timeout nội bộ
     tcsetattr(STDIN_FILENO, TCSANOW, &t);
 
-    // Non-blocking read
     int fl = fcntl(STDIN_FILENO, F_GETFL, 0);
     fcntl(STDIN_FILENO, F_SETFL, fl | O_NONBLOCK);
 
-    // Tự khôi phục khi thoát / Ctrl+C
     atexit(Terminal_Shutdown);
     signal(SIGINT,  Terminal__OnSignal);
     signal(SIGTERM, Terminal__OnSignal);
